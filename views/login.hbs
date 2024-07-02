@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In</title>
+  <!-- Font Awesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      text-align: center;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    .icon {
+      color: #4CAF50;
+      margin-left: 10px;
+    }
+
+    a {
+      display: block;
+      text-align: center;
+      margin-top: 10px;
+      color: #4CAF50;
+      text-decoration: none;
+    }
+
+    a:hover {
+      cursor: pointer;
+      color:rgb(0, 255, 13);
+    }
+  </style>
+</head>
+<body>
+  <form action="/login" method="post">
+  <h2>Log In <i class="fa-solid fa-right-to-bracket fa-lg" style="color: #4caf50;"></i></i></h2>
+    <input type="text" name="email" placeholder="Email">
+    <input type="password" name="password" placeholder="Password"><br><br>
+    <input type="submit" value="Log In">
+    <p>Don't have an account<a href="/signup">SignUp Here</a></p>
+  </form>
+  
+</body>
+</html>
