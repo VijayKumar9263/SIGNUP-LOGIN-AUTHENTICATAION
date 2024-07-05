@@ -1,4 +1,4 @@
-# Project Title: SIGNUP-LOGIN-AUTHENTICATION
+# SIGNUP-LOGIN-AUTHENTICATION
 
 A simple authentication system using Node.js, MongoDB, and HBS (Handlebars) templates for signup, login, and home pages.
 
